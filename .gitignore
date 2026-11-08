@@ -1,0 +1,13 @@
+# Thư mục làm việc, ảnh cắt tạm và file đầu ra
+work/
+crops/
+*.xlsx
+# Không đưa đề thi thật lên repo
+*.pdf
+# Python
+__pycache__/
+*.pyc
+.venv/
+# Hệ điều hành
+.DS_Store
+Thumbs.db

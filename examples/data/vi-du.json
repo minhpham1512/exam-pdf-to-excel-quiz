@@ -1,0 +1,34 @@
+{
+  "_huong_dan": "Ví dụ minh hoạ định dạng dữ liệu. Mỗi phần tử của qs: [số câu, câu hỏi, A, B, C, D, đáp án, ghi chú, IMG, nguồn đáp án, E (tuỳ chọn)]. Đường dẫn pdf và toạ độ/xref chỉ là ví dụ; khoá bắt đầu bằng _ bị build.py bỏ qua.",
+  "de": "Đề mẫu",
+  "slug": "demau",
+  "pdf": "C:/duong/dan/de-mau.pdf",
+  "qs": [
+    [1, "Biểu đồ nào mô tả tương tác giữa các đối tượng theo thứ tự thời gian?",
+     "Biểu đồ lớp", "Biểu đồ tuần tự", "Biểu đồ ca sử dụng", "Biểu đồ triển khai",
+     "B", "", null, "Khoanh sẵn"],
+
+    [2, "Những yêu cầu nào sau đây là yêu cầu phi chức năng? (chọn tất cả)",
+     "Thời gian phản hồi dưới 2 giây", "Người dùng đăng nhập bằng email", "Xuất báo cáo PDF", "Hệ thống chạy 24/7",
+     "A, D", "", null, "Đáp án tham chiếu"],
+
+    [3, "Quan hệ được biểu diễn trong hình bên là quan hệ gì?",
+     "Kết hợp", "Kết tập", "Hợp thành", "Kế thừa",
+     "C", "", {"fig": [0, 12, 0], "crops": {"Q": [0, 0, 900, 420]}}, "Khoanh sẵn"],
+
+    [4, "Ký hiệu nào biểu diễn một ca sử dụng?",
+     "", "", "", "",
+     "D", "Phương án là hình, cắt bằng toạ độ trang.",
+     {"page": 1, "rects": {"A": [72, 300, 200, 360], "B": [220, 300, 350, 360], "C": [72, 380, 200, 440], "D": [220, 380, 350, 440]}},
+     "Đáp án tham chiếu"],
+
+    [5, "Kéo các thành phần vào đúng vị trí trong sơ đồ.",
+     "", "", "", "",
+     "Xem ghi chú", "Ô 1: Actor; Ô 2: Use case; Ô 3: Include.",
+     {"xrefs": {"Q": 41, "A": 42, "B": 43, "C": 44}}, "Đáp án tham chiếu"],
+
+    [6, "Giai đoạn nào thu thập yêu cầu từ khách hàng?",
+     "Thiết kế", "Kiểm thử", "Phân tích", "Bảo trì",
+     "B", "Nên xem lại: đề khoanh B nhưng theo lý thuyết đáp án đúng là C (Phân tích).", null, "Khoanh sẵn"]
+  ]
+}
