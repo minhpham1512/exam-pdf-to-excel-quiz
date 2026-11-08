@@ -1,6 +1,6 @@
 """Gom tất cả file data/*.json thành một file Excel trắc nghiệm có ảnh trong ô.
 
-Logic giống bản build.py nhúng trong SKILL.md; bản này thêm tham số dòng lệnh để chạy được ở mọi máy.
+Không phụ thuộc agent nào: agent (hoặc người dùng) chỉ cần ghi JSON rồi chạy script này.
 
 Cách dùng:
     python build.py --work <thư_mục_work> [--out <file.xlsx>]
